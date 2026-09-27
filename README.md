@@ -1,18 +1,8 @@
 # lossy_c4
 
-An unbeatable Connect 4 opponent written in Zig for the [WASM-4](https://wasm4.org) fantasy console.
+A python script to convert dave-zyx's weak connect 4
+[solution](https://github.com/dave-zyx/lossy_c4) into json files compatible with
+2swap's [solution](https://github.com/2swap/WeakC4).
 
-## Building
-
-Build and run the cart by running:
-
-```shell
-zig build run
-```
-
-For more info about setting up WASM-4, see the [quickstart guide](https://wasm4.org/docs/getting-started/setup?code-lang=zig#quickstart).
-
-## Links
-
-- [Explanation](https://dave-zyx.github.io/): Learn more about how lossy algorithms are actually a well-accepted part of computing.
-- [Documentation](https://wasm4.org/docs): Learn more about WASM-4.
+This code is not very good, the proper solution would be to write this in Zig.
+Unfortunately I don't know Zig and don't feel like learning it for this.

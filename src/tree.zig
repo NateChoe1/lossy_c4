@@ -60,8 +60,6 @@ pub const NodeCursor = struct {
     }
 };
 
-
-
 pub const node_list = [_]Node {
 Node { .strategy = Strategy.fromString("444444444444444444444444444444444444444444") }, //
 Node { .red = .{ .child = 3, .transition = .{ .index = 2, .flip = false }, }, },
