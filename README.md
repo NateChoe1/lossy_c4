@@ -6,3 +6,10 @@ A python script to convert dave-zyx's weak connect 4
 
 This code is not very good, the proper solution would be to write this in Zig.
 Unfortunately I don't know Zig and don't feel like learning it for this.
+
+## Instructions
+
+```
+cd src
+python3 convert.py
+```
